@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+.button { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; }
+    .button:hover { background-color: #45a049; }
+</style>
+<body>
+<form action="adminmain" method="post">
+    <label for="op">Select Course:</label>
+    <select name="course_name">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="fullstack">Fullstack</option>
+        <option value="c">Basic of C, C++</option>
+    </select>
+    <button type="submit" name="action" value="display">Display</button>
+    <button type="submit" name="action" value="create">Create</button>
+    <button type="submit" name="action" value="delete">Delete</button>
+    <button type="submit" name="action" value="update">Update</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Courses - SaiService</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .course-container {
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/015/634/808/small_2x/circular-hud-connection-with-circuit-board-futuristic-modern-website-background-or-cover-page-for-technology-and-finance-concept-and-education-future-company-vector.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .card {
+        background: #ffffffcc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.3s;
+    }
+    .card:hover {
+        transform: scale(1.05);
+    }
+    .card img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .card button {
+        border: none;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .card button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<div class="course-container">
+    <div class="card">
+        <img src="https://wallpapercave.com/wp/wp8661113.jpg" alt="Python">
+        <h2>Python Course</h2>
+        <p name="price">Price: ₹15,000</p>
+        <p>Master Python programming, automation, and data analysis.</p>
+        <form action="pythoncourse.jsp" method="post">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+    <div class="card">
+        <img src="https://logolook.net/wp-content/uploads/2022/11/Java-Logo.png" alt="Java">
+        <h2>Java Course</h2>
+        <p name="price">Price: ₹25,000</p>
+        <p>Learn Java for web, desktop, and mobile applications.</p>
+        <form action="java.jsp" method="post">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+    <div class="card">
+        <img src="https://wallpapercave.com/wp/wp9641888.jpg" alt="Full Stack Java">
+        <h2>Full Stack Java Course</h2>
+        <p name="price">Price: ₹30,000</p>
+        <p>Become a full-stack developer with Java, Spring, and more.</p>
+        <form action="fullstack.jsp" method="post">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+    <div class="card">
+        <img src="https://user-images.githubusercontent.com/79866006/236609770-d36c7858-a686-43f0-be41-250ac679f836.png" alt="C/C++">
+        <h2>C and C++ Course</h2>
+        <p name="price">Price: ₹9,000</p>
+        <p>Understand C/C++ programming and system-level development.</p>
+        <form action="c.jsp" method="post">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
